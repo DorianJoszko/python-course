@@ -1,0 +1,20 @@
+{
+  "columns": [
+    "Akapit",
+    "Treść"
+  ],
+  "rows": [
+    {
+      "Akapit": "1",
+      "Treść": "Praca projektu konwerter"
+    },
+    {
+      "Akapit": "2",
+      "Treść": "Wyniki są dobre"
+    },
+    {
+      "Akapit": "3",
+      "Treść": "Wyniki dla znaków specjalnych ąęóśćń"
+    }
+  ]
+

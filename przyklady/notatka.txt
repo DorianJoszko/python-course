@@ -1,0 +1,5 @@
+Praca projektu konwerter
+
+Wyniki są dobre
+
+Wyniki dla znaków specjalnych ąęóśćń

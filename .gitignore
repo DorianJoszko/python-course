@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+wyniki/*
+!wyniki/.gitkeep
+wyniki/
