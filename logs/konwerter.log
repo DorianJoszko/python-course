@@ -1,0 +1,101 @@
+2026-10-22 19:13:16,131 | INFO | START | plik=C:\Users\joszk\Downloads\sprawozdanie-ogolne-3 (3).docx | format=.pdf | katalog=C:\Users\joszk\Downloads
+2026-10-22 19:13:22,097 | INFO | SUKCES | wynik=C:\Users\joszk\Downloads\sprawozdanie-ogolne-3 (3).pdf | czas=5.97s
+2026-10-22 19:24:33,088 | INFO | START | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\bledny.json | format=.csv | katalog=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki
+2026-10-22 19:24:33,096 | ERROR | BŁĄD | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\bledny.json | po=0.01s
+Traceback (most recent call last):
+  File "C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\konwertery.py", line 108, in json_na_csv
+    dane = json.load(wejscie)
+  File "C:\Python314\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 21 column 1 (char 295)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\usluga.py", line 41, in wykonaj_z_logowaniem
+    wynik = wykonaj(zlecenie)
+  File "C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\konwertery.py", line 68, in wykonaj
+    return REJESTR[para](zlecenie.plik, zlecenie.katalog)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\konwertery.py", line 110, in json_na_csv
+    raise BladKonwersji(
+        f"Niepoprawny JSON (linia {blad.lineno}, kolumna {blad.colno}): {blad.msg}"
+    ) from blad
+konwertery.BladKonwersji: Niepoprawny JSON (linia 21, kolumna 1): Expecting ',' delimiter
+2026-10-22 19:24:50,227 | INFO | START | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\dokument.docx | format=.pdf | katalog=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki
+2026-10-22 19:24:55,032 | INFO | SUKCES | wynik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki\dokument_2.pdf | czas=4.81s
+2026-10-22 19:25:18,648 | INFO | START | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\dokument.docx | format=.txt | katalog=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki
+2026-10-22 19:25:19,490 | INFO | SUKCES | wynik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki\dokument_2.txt | czas=0.84s
+2026-10-22 19:25:27,425 | INFO | START | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\dokument.odt | format=.pdf | katalog=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki
+2026-10-22 19:25:31,783 | INFO | SUKCES | wynik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki\dokument_3.pdf | czas=4.36s
+2026-10-22 19:25:50,956 | INFO | START | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\notatka.txt | format=.docx | katalog=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki
+2026-10-22 19:25:51,006 | INFO | SUKCES | wynik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki\notatka.docx | czas=0.05s
+2026-10-22 19:26:07,396 | INFO | START | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\osoby.csv | format=.json | katalog=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki
+2026-10-22 19:26:07,408 | INFO | SUKCES | wynik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki\osoby_1.json | czas=0.01s
+2026-10-22 19:26:13,693 | INFO | START | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\osoby.json | format=.csv | katalog=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki
+2026-10-22 19:26:13,702 | INFO | SUKCES | wynik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki\osoby_1.csv | czas=0.01s
+2026-10-28 19:37:50,848 | INFO | START | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\bledny.json | format=.csv | katalog=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki
+2026-10-28 19:37:50,858 | ERROR | BŁĄD | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\bledny.json | po=0.01s
+Traceback (most recent call last):
+  File "C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\konwertery.py", line 108, in json_na_csv
+    dane = json.load(wejscie)
+  File "C:\Python314\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 21 column 1 (char 295)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\usluga.py", line 41, in wykonaj_z_logowaniem
+    wynik = wykonaj(zlecenie)
+  File "C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\konwertery.py", line 68, in wykonaj
+    return REJESTR[para](zlecenie.plik, zlecenie.katalog)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\konwertery.py", line 110, in json_na_csv
+    raise BladKonwersji(
+        f"Niepoprawny JSON (linia {blad.lineno}, kolumna {blad.colno}): {blad.msg}"
+    ) from blad
+konwertery.BladKonwersji: Niepoprawny JSON (linia 21, kolumna 1): Expecting ',' delimiter
+2026-10-28 19:42:57,897 | INFO | START | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\dokument.odt | format=.pdf | katalog=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki
+2026-10-28 19:43:05,462 | INFO | SUKCES | wynik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki\dokument_4.pdf | czas=7.57s
+2026-10-28 20:08:35,340 | INFO | START | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\dokument.odt | format=.pdf | katalog=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki
+2026-10-28 20:08:35,341 | ERROR | BŁĄD | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\dokument.odt | po=0.00s
+Traceback (most recent call last):
+  File "C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\usluga.py", line 41, in wykonaj_z_logowaniem
+    wynik = wykonaj(zlecenie)
+  File "C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\konwertery.py", line 68, in wykonaj
+    return REJESTR[para](zlecenie.plik, zlecenie.katalog)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\konwertery.py", line 255, in odt_na_pdf
+    return przez_libreoffice(plik, katalog, "pdf")
+  File "C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\konwertery.py", line 207, in przez_libreoffice
+    program = znajdz_libreoffice()
+  File "C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\konwertery.py", line 186, in znajdz_libreoffice
+    raise BladKonwersji(f"Nie znaleziono LibreOffice pod LIBREOFFICE_PATH={wskazany}")
+konwertery.BladKonwersji: Nie znaleziono LibreOffice pod LIBREOFFICE_PATH=C:\nieistniejacy\soffice.exe
+2026-10-28 20:09:26,275 | INFO | START | plik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\przyklady\dokument.odt | format=.pdf | katalog=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki
+2026-10-28 20:09:30,416 | INFO | SUKCES | wynik=C:\Users\joszk\Desktop\Semestr 7\programowanie v\python-course\wyniki\dokument_5.pdf | czas=4.14s
