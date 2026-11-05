@@ -1,0 +1,13 @@
+﻿,typ,braki,braki_proc,unikalne
+MedInc,float64,0,0.0,12895
+HouseAge,float64,0,0.0,52
+AveRooms,float64,0,0.0,19348
+AveBedrms,float64,0,0.0,14233
+Population,float64,0,0.0,3888
+AveOccup,float64,0,0.0,18841
+Latitude,float64,0,0.0,862
+Longitude,float64,0,0.0,844
+MedHouseVal,float64,0,0.0,3842
+Region,str,0,0.0,3
+MedInc_poza_zakresem,bool,0,0.0,1
+AveRooms_outlier_IQR,bool,0,0.0,2

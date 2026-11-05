@@ -1,0 +1,8 @@
+﻿czas,operacja,rekordy_przed,rekordy_po,rekordy_dotkniete,parametry
+2026-11-05T20:47:49,Usuwanie pełnych duplikatów,20670,20640,30,{}
+2026-11-05T20:47:49,Reguła zakresu,20640,20640,40,"{'kolumna': 'HouseAge', 'minimum': 0, 'maksimum': 52, 'strategia': 'nan'}"
+2026-11-05T20:47:49,Reguła zakresu,20640,20640,0,"{'kolumna': 'MedInc', 'minimum': 0, 'maksimum': 20, 'strategia': 'mark'}"
+2026-11-05T20:47:49,Uzupełnienie braków,20640,20640,80,"{'kolumna': 'MedInc', 'strategia': 'median', 'wartosc': 'np.float64(3.5347)'}"
+2026-11-05T20:47:49,Uzupełnienie braków,20640,20640,40,"{'kolumna': 'HouseAge', 'strategia': 'median', 'wartosc': 'np.float64(29.0)'}"
+2026-11-05T20:47:49,Uzupełnienie braków,20640,20640,40,"{'kolumna': 'Region', 'strategia': 'mode', 'wartosc': ""'north'""}"
+2026-11-05T20:47:49,Outliery IQR,20640,20640,553,"{'kolumna': 'AveRooms', 'factor': 1.5, 'progi': (2.019099332896911, 8.482658047320676), 'strategia': 'mark'}"

@@ -1,0 +1,26 @@
+raw: wiersze=20670, kolumny=                 typ  braki  braki_proc  unikalne
+MedInc       float64     80        0.39     12895
+HouseAge     float64      0        0.00        53
+AveRooms     float64      0        0.00     19348
+AveBedrms    float64      0        0.00     14233
+Population   float64      0        0.00      3888
+AveOccup     float64      0        0.00     18841
+Latitude     float64      0        0.00       862
+Longitude    float64      0        0.00       844
+MedHouseVal  float64      0        0.00      3842
+Region           str     40        0.19         3, pelne_duplikaty=30
+current: wiersze=20640, kolumny=                          typ  braki  braki_proc  unikalne
+MedInc                float64      0         0.0     12895
+HouseAge              float64      0         0.0        52
+AveRooms              float64      0         0.0     19348
+AveBedrms             float64      0         0.0     14233
+Population            float64      0         0.0      3888
+AveOccup              float64      0         0.0     18841
+Latitude              float64      0         0.0       862
+Longitude             float64      0         0.0       844
+MedHouseVal           float64      0         0.0      3842
+Region                    str      0         0.0         3
+MedInc_poza_zakresem     bool      0         0.0         1
+AveRooms_outlier_IQR     bool      0         0.0         2, pelne_duplikaty=0
+
+Operacje: kolejno w pliku raport_zmian.csv
